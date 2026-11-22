@@ -1,0 +1,32 @@
+
+grid 640 x 640, pixel 50 nm, step 25 nm, length 200 um = 0.91 ps of travel time
+design A done in 120 s
+design B done in 120 s
+design C done in 118 s
+
+power inside the liquid core / power left in the window (fractions of the launched power)
+   z (um)        A                  B                  C
+      10    0.7508 / 1.0000    0.7692 / 1.0000    0.9813 / 0.9998
+      20    0.5672 / 0.9993    0.6133 / 0.9997    0.9738 / 0.9990
+      50    0.2317 / 0.5102    0.1444 / 0.8767    0.9634 / 0.9948
+     100    0.0537 / 0.1169    0.1786 / 0.3943    0.9770 / 0.9927
+     150    0.0124 / 0.0285    0.0268 / 0.2372    0.9745 / 0.9914
+     200    0.0028 / 0.0078    0.0230 / 0.1030    0.9765 / 0.9901
+
+A: core power decays at 0.0293 per um = 127 dB/mm (1/e length 34 um)
+   exact leaky mode of the capillary: 0.0294 per um; Marcatili-Schmeltzer estimate: 0.0304 (scalar), 0.0330 (EH11) per um
+B: power in the window decays at 0.0133 per um = 58 dB/mm on average; core power 0.144 at 50 um, 0.023 at 200 um
+C: core power 0.9743 +- 0.0043 over the last 100 um; power left in the window at 200 um: 0.9901
+
+fundamental mode of design C (25 s)            this script (scalar)    paper (full-vector)
+   effective index                               1.332434                1.332018
+   power fraction in the liquid                  0.9876                  0.9919
+   effective area (um^2)                         12.41                   11.78
+   difference of the effective index: 4.2e-04;  overlap of the launched Gaussian with the mode: 0.9822
+glucose 80 mg/dL done in 58 s
+glucose 300 mg/dL done in 58 s
+
+effective index from the phase advance at 80 mg/dL: 1.332403
+phase difference between 80 and 300 mg/dL: 1.808e-03 rad per um, i.e. 0.1808 rad after 100 um
+   d n_eff/d n_a = 0.9939 (paper 0.9964);  extrapolated to 5 cm: 90.4 rad = 14.4 fringes (paper 90.6 rad)
+   power left after 100 um: 0.9990 (80 mg/dL), 0.9990 (300 mg/dL)

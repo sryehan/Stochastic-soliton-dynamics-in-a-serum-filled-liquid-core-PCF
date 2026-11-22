@@ -1,0 +1,44 @@
+=== m1_phase_portraits
+case 1: alpha1 =  -1.31, beta1 =  -1.0, origin: center
+case 2: alpha1 =   0.00, beta1 =  -1.0, origin: degenerate
+case 3: alpha1 =   1.80, beta1 =  -2.0, origin: saddle; E+- = (+-0.9487, 0): centers
+case 4: alpha1 =  -2.89, beta1 =   4.0, origin: center; E+- = (+-0.8500, 0): saddles
+case 5: alpha1 =   0.00, beta1 =   1.0, origin: degenerate
+case 6: alpha1 =   3.49, beta1 =   1.0, origin: saddle
+(figure not drawn in this headless run: no graphics toolkits are available!)
+=== m2_exact_solutions
+sech : residual 1.8e-06
+tanh : residual 1.5e-06
+cn   : residual 9.7e-07
+dn   : residual 1.0e-06
+sn   : residual 8.1e-07
+family I minus sech form: 1.6e-15
+family III minus tanh form: 4.4e-16
+(figure not drawn in this headless run: no graphics toolkits are available!)
+=== m3_stochastic_verification
+single path, varrho = 0.3: max |L_num - L_exact| = 2.5e-03, max | |L(0,t)|^2 - 1 | = 4.7e-04
+varrho = 0.1: |<L>| = 0.9516 (theory 0.9512), Var[arg L] = 0.0993 (theory 0.1000 +- 0.0032), <|L|^2> = 1.0001
+varrho = 0.2: |<L>| = 0.8106 (theory 0.8187), Var[arg L] = 0.4197 (theory 0.4000 +- 0.0126), <|L|^2> = 1.0006
+varrho = 0.3: |<L>| = 0.6470 (theory 0.6376), Var[arg L] = 0.8652 (theory 0.9000 +- 0.0285), <|L|^2> = 1.0020
+Ito reading, varrho = 0.3: power(t=10)/power(0) = 2.4647, exp(varrho^2 t) = 2.4596
+=== m4_fiber_propagation
+T0 = 30 fs: FWHM = 52.9 fs, L_D = 3.382 cm, P0 = 1438.8 W, energy = 86.3 pJ, Gamma = 0.239, delta3 = 0.0283
+   z = 2 cm: FWHM/FWHM0 soliton 1.027, linear 1.275; energy 0.753, peak power 0.739
+   z = 5 cm: FWHM/FWHM0 soliton 1.204, linear 1.826; energy 0.493, peak power 0.424
+   z = 8 cm: FWHM/FWHM0 soliton 1.484, linear 2.350; energy 0.322, peak power 0.229
+T0 = 20 fs: FWHM = 35.3 fs, L_D = 1.503 cm, P0 = 3237.3 W, energy = 129.5 pJ, Gamma = 0.106, delta3 = 0.0424
+   z = 2 cm: FWHM/FWHM0 soliton 1.068, linear 1.728; energy 0.754, peak power 0.713
+   z = 5 cm: FWHM/FWHM0 soliton 1.448, linear 2.896; energy 0.493, peak power 0.352
+   z = 8 cm: FWHM/FWHM0 soliton 2.000, linear 4.041; energy 0.322, peak power 0.167
+=== m5_sensing_iso15197
+phase sensitivity 2.942e+05 rad/RIU = 0.4119 rad per mg/dL; delay sensitivity 166.2 ps/RIU = 0.2327 fs per mg/dL
+one fringe = 15.26 mg/dL = 3.55 fs of group delay; temperature cross-sensitivity 71.4 mg/dL per K
+varrho = 0.01: 3-sigma detection limit 0.089 mg/dL
+varrho = 0.10: 3-sigma detection limit 0.886 mg/dL
+varrho = 0.30: 3-sigma detection limit 2.657 mg/dL
+records 100000, mean 138.06, SD 40.71 mg/dL, share below 100 mg/dL 0.211
+varrho = 0.1, sigma_T = 0.05 K: 100.00 % of the records within the ISO 15197:2013 limits
+varrho = 0.1, sigma_T = 0.10 K: 98.81 % of the records within the ISO 15197:2013 limits
+varrho = 0.1, sigma_T = 0.15 K: 92.75 % of the records within the ISO 15197:2013 limits
+varrho = 0.1, sigma_T = 0.20 K: 83.65 % of the records within the ISO 15197:2013 limits
+95 % requirement: total SD <= 9.67 mg/dL, i.e. sigma_T <= 0.1348 K (varrho = 0.3), 0.1289 K (varrho = 1)

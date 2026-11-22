@@ -1,0 +1,6 @@
+(1) design C, pixel 0.050 um, 380 x 380 unknowns
+scalar effective indices of the four highest modes: 1.332442, 1.320863, 1.320854, 1.305539
+fundamental mode: n_eff = 1.332442, power fraction in the liquid 0.9876, effective area 12.42 um^2
+full-vector solver of the paper: n_eff = 1.332018, power fraction 0.9919, effective area 11.78 um^2
+(2) design A, fundamental leaky mode: n_eff = 1.330022, power decay 2 Im(beta) = 0.02935 per um = 127.5 dB/mm
+    Marcatili-Schmeltzer estimate: 0.03043 per um (scalar), 0.03302 per um (EH11 mode)

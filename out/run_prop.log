@@ -1,0 +1,8 @@
+T0=20 fs  z=2.0 cm (xi=1.32): FWHM/FWHM0  ideal 1.000 | loss 1.084 | loss+TOD 1.067 | linear 1.721 | adiabatic exp(2 Gamma xi)=1.324 ; peak(loss+TOD)=0.715, energy=0.755
+T0=20 fs  z=5.0 cm (xi=3.34): FWHM/FWHM0  ideal 1.000 | loss 1.473 | loss+TOD 1.452 | linear 2.906 | adiabatic exp(2 Gamma xi)=2.037 ; peak(loss+TOD)=0.349, energy=0.491
+T0=20 fs  z=8.0 cm (xi=5.28): FWHM/FWHM0  ideal 1.000 | loss 2.007 | loss+TOD 1.987 | linear 4.017 | adiabatic exp(2 Gamma xi)=3.074 ; peak(loss+TOD)=0.169, energy=0.325
+   chirp at 8 cm: soliton(loss+TOD) -0.156, linear -0.157
+T0=30 fs  z=2.0 cm (xi=0.58): FWHM/FWHM0  ideal 1.000 | loss 1.029 | loss+TOD 1.027 | linear 1.271 | adiabatic exp(2 Gamma xi)=1.323 ; peak(loss+TOD)=0.742, energy=0.756
+T0=30 fs  z=5.0 cm (xi=1.48): FWHM/FWHM0  ideal 1.000 | loss 1.213 | loss+TOD 1.205 | linear 1.828 | adiabatic exp(2 Gamma xi)=2.032 ; peak(loss+TOD)=0.423, energy=0.492
+T0=30 fs  z=8.0 cm (xi=2.36): FWHM/FWHM0  ideal 1.000 | loss 1.491 | loss+TOD 1.482 | linear 2.347 | adiabatic exp(2 Gamma xi)=3.093 ; peak(loss+TOD)=0.230, energy=0.323
+   chirp at 8 cm: soliton(loss+TOD) -0.217, linear -0.267

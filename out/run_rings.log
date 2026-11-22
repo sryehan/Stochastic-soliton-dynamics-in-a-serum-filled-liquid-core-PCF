@@ -1,0 +1,4 @@
+nclad=1 neff=1.3320178 Im=2.051e-07 core=0.99188 (13s)
+nclad=2 neff=1.3320177 Im=5.163e-13 core=0.99191 (31s)
+nclad=3 neff=1.3320177 Im=6.088e-19 core=0.99191 (49s)
+stage rings done in 49 s

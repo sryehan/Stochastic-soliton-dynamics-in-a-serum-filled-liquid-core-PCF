@@ -1,0 +1,12 @@
+exact HE11 n_eff = 1.3042646
+0A0A [1.304248 1.23716  1.234892]  max|Ex|=0.0357 max|Ey|=0.000411  max|Hx|=0.000725 max|Hy|=0.0473
+0S0S [1.304248 1.23716  1.234892]  max|Ex|=0.000411 max|Ey|=0.0357  max|Hx|=0.0473 max|Hy|=0.000725
+0A0S [1.274002 1.273604 1.194705]  max|Ex|=0.0264 max|Ey|=0.0264  max|Hx|=0.0348 max|Hy|=0.0348
+0S0A [1.275646 1.274027 1.194748]  max|Ex|=0.0271 max|Ey|=0.0271  max|Hx|=0.0347 max|Hy|=0.0347
+convergence, HE11x:
+h=0.100  n_eff=1.3041136  err=-1.51e-04  core frac=0.9735  Aeff=4.855 um^2 (0.1s)
+h=0.060  n_eff=1.3042159  err=-4.87e-05  core frac=0.9729  Aeff=4.874 um^2 (0.2s)
+h=0.040  n_eff=1.3042476  err=-1.70e-05  core frac=0.9717  Aeff=4.880 um^2 (0.5s)
+h=0.030  n_eff=1.3042555  err=-9.11e-06  core frac=0.9722  Aeff=4.881 um^2 (1.0s)
+h=0.020  n_eff=1.3042631  err=-1.49e-06  core frac=0.9723  Aeff=4.882 um^2 (3.3s)
+h=0.015  n_eff=1.3042646  err=+3.93e-08  core frac=0.9722  Aeff=4.883 um^2 (6.1s)
