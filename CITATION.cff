@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Code and data for: Stochastic soliton dynamics in a serum-filled liquid-core photonic crystal fiber for refractometric glucose sensing"
+type: software
+repository-code: "https://github.com/sryehan/Stochastic-soliton-dynamics-in-a-serum-filled-liquid-core-PCF"
+authors:
+  - family-names: Rahman
+    given-names: Tobibur
+  - family-names: Ryehan
+    given-names: Shahariar
+  - family-names: Hossain
+    given-names: "Mohammad Iqram"
+  - family-names: Soma
+    given-names: "Mst. Ifat Zahan"
+  - family-names: Islam
+    given-names: "Md. Tarikul"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Stochastic soliton dynamics in a serum-filled liquid-core photonic crystal fiber for refractometric glucose sensing: Bifurcation analysis, exact solutions and numerical design"
+  authors:
+    - family-names: Rahman
+      given-names: Tobibur
+    - family-names: Ryehan
+      given-names: Shahariar
+    - family-names: Hossain
+      given-names: "Mohammad Iqram"
+    - family-names: Soma
+      given-names: "Mst. Ifat Zahan"
+    - family-names: Islam
+      given-names: "Md. Tarikul"
+  status: submitted
